@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    /* .btn-primary {
+      @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600;
+    } */
+
+    /* scale animation  */
+
+    .big-1
+    {
+        @apply scale-110 transition-all duration-700 ease-linear cursor-pointer
+    }
+
+    .big-0
+    {
+        @apply scale-105 transition-all duration-300 ease-linear cursor-pointer
+    }
+
+    .big-2
+    {
+        @apply scale-150 transition-all duration-700 ease-linear cursor-pointer
+    }
+    .maincolor
+    {
+        @apply bg-
+    }
+
+  }
+
+
+
+
+  @layer utilities {
+    /* Slim black scrollbar styles */
+    .scrollbar-thin {
+      scrollbar-width: thin; /* Firefox */
+    }
+    .scrollbar-black {
+      scrollbar-color: #222627 transparent; /* Firefox */
+    }
+    .scrollbar-black::-webkit-scrollbar {
+      width: 6px; /* Adjust the scrollbar width */
+      height: 6px; /* Adjust the scrollbar height */
+    }
+    .scrollbar-black::-webkit-scrollbar-thumb {
+      background-color: #131718; /* Black color */
+      border-radius: 9999px; /* Rounded corners */
+    }
+    .scrollbar-black::-webkit-scrollbar-track {
+      background-color: transparent; /* Transparent track */
+    }
+  }
